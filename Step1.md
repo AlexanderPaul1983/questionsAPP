@@ -5,6 +5,7 @@
 * Add the MediatR Nuget Package to the QuestionsApp.Web Dependencies
 * Save all
 
+
 ## Add folders for the Mediator Handlers
 
 * Add the folders in the QuestionsApp.Web project
