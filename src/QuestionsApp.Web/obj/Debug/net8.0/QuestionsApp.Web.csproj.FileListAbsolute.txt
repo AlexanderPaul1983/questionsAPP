@@ -31,3 +31,6 @@ C:\Users\olgap\LabProject\LabStarter\src\QuestionsApp.Web\obj\Debug\net8.0\refin
 C:\Users\olgap\LabProject\LabStarter\src\QuestionsApp.Web\obj\Debug\net8.0\QuestionsApp.Web.pdb
 C:\Users\olgap\LabProject\LabStarter\src\QuestionsApp.Web\obj\Debug\net8.0\QuestionsApp.Web.genruntimeconfig.cache
 C:\Users\olgap\LabProject\LabStarter\src\QuestionsApp.Web\obj\Debug\net8.0\ref\QuestionsApp.Web.dll
+C:\Users\olgap\LabProject\LabStarter\src\QuestionsApp.Web\bin\Debug\net8.0\MediatR.dll
+C:\Users\olgap\LabProject\LabStarter\src\QuestionsApp.Web\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\olgap\LabProject\LabStarter\src\QuestionsApp.Web\obj\Debug\net8.0\QuestionsApp.Web.sourcelink.json
