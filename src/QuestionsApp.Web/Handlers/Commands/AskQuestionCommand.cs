@@ -1,3 +1,5 @@
+using QuestionsApp.Web.DB;
+
 namespace QuestionsApp.Web.Handlers.Commands;
 using MediatR;
 
@@ -8,8 +10,19 @@ public class AskQuestionRequest :IRequest<IResult>
 
 public class AskQuestionCommand : IRequestHandler<AskQuestionRequest, IResult>
 {
-	public Task<IResult> Handle(AskQuestionRequest request, CancellationToken cancellationToken)
+	public async Task<IResult> Handle(AskQuestionRequest request, CancellationToken cancellationToken)
 	{
-		throw new NotImplementedException();
+		if (string.IsNullOrWhiteSpace(request.Content))
+			return Results.BadRequest("The Question Content can not be empty");
+
+		_context.Questions.Add(new QuestionDb { Content = request.Content });
+		await _context.SaveChangesAsync(cancellationToken);
+		return Results.Ok();
+	}
+	
+	private readonly QuestionsContext _context;
+	public AskQuestionCommand(QuestionsContext context)
+	{
+		_context = context;
 	}
 }
