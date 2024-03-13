@@ -145,6 +145,10 @@
               "target": "Package",
               "version": "[9.0.0-preview.1.24081.2, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[9.0.0-preview.1.24081.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"

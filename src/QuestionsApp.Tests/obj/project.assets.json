@@ -1111,6 +1111,7 @@
           "MediatR": "12.2.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.1",
           "Microsoft.EntityFrameworkCore.InMemory": "9.0.0-preview.1.24081.2",
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "9.0.0-preview.1.24081.2",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "compile": {

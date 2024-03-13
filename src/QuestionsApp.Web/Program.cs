@@ -1,4 +1,6 @@
 using MediatR;
+using Microsoft.Data.Sqlite;
+using Microsoft.EntityFrameworkCore;
 using QuestionsApp.Web.DB;
 using QuestionsApp.Web.Handlers.Commands;
 
@@ -10,13 +12,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSwaggerGen();
 
-// Register MediatR
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Program>());
-
 // Configuration for Entity Framework
 var connectionString = new SqliteConnectionStringBuilder() { DataSource = "Production.db" }.ToString();
 builder.Services.AddDbContext<QuestionsContext>(x => x.UseSqlite(connectionString));
 
+// Register MediatR
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Program>());
 var app = builder.Build();
 // Make sure, that the database exists
 using (var scope = app.Services.CreateScope())
