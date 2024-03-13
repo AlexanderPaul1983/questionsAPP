@@ -19,6 +19,7 @@ builder.Services.AddDbContext<QuestionsContext>(x => x.UseSqlite(connectionStrin
 // Register MediatR
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Program>());
 var app = builder.Build();
+
 // Make sure, that the database exists
 using (var scope = app.Services.CreateScope())
     scope.ServiceProvider.GetRequiredService<QuestionsContext>().Database.EnsureCreated();

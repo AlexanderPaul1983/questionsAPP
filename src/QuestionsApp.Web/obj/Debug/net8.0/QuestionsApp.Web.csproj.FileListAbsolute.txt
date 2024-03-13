@@ -54,3 +54,4 @@ C:\Users\olgap\LabProject\LabStarter\src\QuestionsApp.Web\bin\Debug\net8.0\SQLit
 C:\Users\olgap\LabProject\LabStarter\src\QuestionsApp.Web\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 C:\Users\olgap\LabProject\LabStarter\src\QuestionsApp.Web\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\olgap\LabProject\LabStarter\src\QuestionsApp.Web\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\olgap\LabProject\LabStarter\src\QuestionsApp.Web\bin\Debug\net8.0\QuestionsApp.Web.staticwebassets.runtime.json

@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "Z9AyzSHA8sH4cvdTqfLBsmvUPPlhRPzqOIWDuvUBA/0=",
+  "Hash": "Vc5zcHvZlil6PY1BmljH7Zb4AIQWV4DpJ6N6LIhzW5w=",
   "Source": "QuestionsApp.Web",
   "BasePath": "_content/QuestionsApp.Web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "QuestionsApp.Web\\wwwroot",
+      "Source": "QuestionsApp.Web",
+      "ContentRoot": "C:\\Users\\olgap\\LabProject\\LabStarter\\src\\QuestionsApp.Web\\wwwroot\\",
+      "BasePath": "_content/QuestionsApp.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\olgap\\LabProject\\LabStarter\\src\\QuestionsApp.Web\\wwwroot\\index.html",
+      "SourceId": "QuestionsApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\olgap\\LabProject\\LabStarter\\src\\QuestionsApp.Web\\wwwroot\\",
+      "BasePath": "_content/QuestionsApp.Web",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
 }
